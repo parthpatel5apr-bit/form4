@@ -1,8 +1,12 @@
-import React, {usestate} from "react"
-import Form from "./form"
+import React from "react";
+import Form from "./Form";
 
-function app () {
-  return<Form />
+function App() {
+  return (
+    <div>
+      <Form />
+    </div>
+  );
 }
-export default App;
 
+export default App;
